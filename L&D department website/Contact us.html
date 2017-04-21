@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L&D Department</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<style>
+
+h2 {
+ color : blue;
+}
+
+h3 {
+ color : blue;
+}
+
+h4 {
+ color : blue;
+}
+
+h5 {
+ color : blue;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home.html"><span class="glyphicon glyphicon-home "></span><strong> L&D Department</strong></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="Home.html"><strong>Home </strong><span class="sr-only">(current)</span></a> </li>
+        <li><a href="Upload Courses.html"><strong>Upload Courses</strong></a> </li>
+        <li><a href="Online Courses.html"><strong>Online Courses</strong></a> </li>
+        <li><a href="#"><strong>Contact</strong></a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<!-- FOOTER -->
+
+<div class="container">
+  <div class="row">
+      <div class="jumbotron col-lg-6 col-sm-6 col-md-6 " style="height:700px; width:49%; float:left;">
+        <div class="row text-center">
+          <div class="text-left col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <!--<div class="jumbotron-center col-md-6">-->
+              <h2>Request Training</h2>
+          </div>
+          
+          <div class="text-center col-lg-12 "> 
+            <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+            <form role="form" id="feedbackForm" class="text-left">
+              <div class="form-group">
+                <form class="form-horizontal" action="?do=update" method="POST">
+                <label class="col-sm-3 control-label">First Name : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" name"username" class="form-control"/>
+                 </div>
+                 </form>
+                </div>
+                <div class="form-group">
+                <form class="form-horizontal" action="?do=update" method="POST">
+                <label class="col-sm-3 control-label">Last Name : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" name"username" class="form-control"/>
+                 </div>
+                 </form>
+                </div>
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Email : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" email"emial" class="form-control"/>
+                 </div>
+                </div>  
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Address : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" address"address" class="form-control"/>
+                 </div>
+                </div>  
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Phone : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" phone"phone" class="form-control"/>
+                 </div>
+                </div> 
+                <div class="form-group">
+                <label class="col-sm-3 control-label">University : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" University"University" class="form-control"/>
+                 </div>
+                </div>  
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Faculty : </label>
+               <div class="col-sm-10 col-md-9">
+                  <input type="text" faculty"faculty" class="form-control"/>
+                 </div>
+                </div>  
+                
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Field : </label>
+                <div class="col-sm-10 col-md-4">
+                <label>
+                  <select>
+                     <option selected> </option>
+                     <option>IT</option>
+                     <option>Marketing</option>
+                     <option>Designer</option>
+                  </select>
+                  </label>
+                  </div>
+                </label>
+                </div>
+                <div class="form-group">
+                <label for"us" class="col-sm-6">How do you know about us </label>
+                <div class="col-sm-10 col-md-6" dir="ltr">
+                <label>
+                  <select>
+                     <option selected> </option>
+                     <option>From my friend</option>
+                     <option>From Facebook</option>
+                     <option>Other</option>
+                  </select>
+                  </label>
+                  </div>
+                </label>
+                </div>
+                <div class="form-group">
+                <label class="col-sm-3 control-label">Comment : </label>
+                <textarea rows="8" cols="100" class="form-control" id="comment" name="comment" placeholder="Comment"></textarea>
+                <span class="help-block" style="display: none;">Please enter a message.</span></div>
+              <span class="help-block" style="display: none;">Please enter a the security code.</span>
+              <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" style=" margin-top: 10px;"> Submit</button>
+            </form>
+            <!-- END CONTACT FORM --> 
+          </div>
+        
+      </div>
+    </div>
+<div class="jumbotron col-lg-6 col-sm-6 col-md-6" style="height:700px;width:49%;float:right;">
+          <h2>Get in touch</h2>
+             <div class="panel panel-default" style=" margin-bottom:20px; height:200px;border-radius:15px; padding:5px;width:475px;">
+             <h3> Children’s Cancer Hospital Egypt 57357</h3>
+               <div class="panel-body"><span class="glyphicon glyphicon-map-marker "></span><strong>Address: </strong>1 Seket 
+               Al-Emam Street – El-Madbah El-Kadeem Yard – El-Saida Zenab
+               <li
+               <span class="glyphicon glyphicon-earphone "></span><strong>Phone:</strong> 
+               (202) 25351500 (30 lines) – 19057                 (Inside of Egypt)
+               </li>               
+               <li
+               <span class="glyphicon glyphicon-envelope "></span><strong>Email:</strong><a href="#">info@57357.com</a>
+               </li>
+               </div>
+             <div class="panel panel-default" style="margin-top:50px; border-radius:15px;padding:10px; width:475px;">
+             <h3>Children’s Cancer Hospital Egypt 57357 Foundation</h3>
+               <div class="panel-body"><span class="glyphicon glyphicon-map-marker"></span><strong> Address: </strong>
+               1 El-Fostat street behind 57357 hospital
+               <li
+               <span class="glyphicon glyphicon-earphone"></span><strong>Phone: </strong>
+               (202) 25351500 (30 lines) – 19057 (Inside of Egypt)
+               </li>               
+               <li
+               <span class="glyphicon glyphicon-envelope"></span><strong>Email:</strong> <a href="#">info@57357.com</a>
+               </li>
+               </div>
+          </div>
+        </div>
+      </div>
+ </div>
+</div>
+<!-- END CONTACT FORM -->
+<!-- / FOOTER --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+
+</html>
